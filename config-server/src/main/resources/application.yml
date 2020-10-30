@@ -2,10 +2,9 @@ server:
   port: 8888
  
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        navtive:
-          search-locations: F:\ACELERA-DEVS\32-Microservices com Spring Cloud Registry, Config Server e Distributed Tracing\curso-alura-microservices-com-spring-cloud-registry-config-server-e-distributed-tracing\microservice-repo
+        git:
+          uri: https://github.com/wesleyav/curso-alura-microservices-com-spring-cloud-registry-config-server-e-distributed-tracing/blob/main/microservice-repo/
+          search-paths: fornecedor
